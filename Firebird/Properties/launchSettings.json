@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Firebird": {
+      "commandName": "Project",
+      "commandLineArgs": "build-db --db-dir \"C:\\db\\fb5\" --scripts-dir \"C:\\s\""
+    }
+  }
+}
