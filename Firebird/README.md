@@ -14,7 +14,7 @@ Zawiera tak¿e mo¿liwoœæ eksportu bazy danych do skryptu
 1. Otwórz projekt w Visual Studio 2022
 2. W pliku DatabaseConsts ustaw odpowiednie dane w Connection String (standardowo SYSDBA/masterkey)
 3. Zbuduj projekt
-4. Uruchom projekt z wiersza poleceñ np
+4. Uruchom projekt z wiersza poleceñ - najlepiej jako administrator np
    * utworzenie bazy na podstawie sryptu:
 	 <sciezka do projektu>\bin\Debug\net8.0\Firebird build-db --db-dir "<folder dla tworzonej bazy>" --scripts-dir "<skrypt metadanych>"
    * import metadanych bazdy do skryptu
